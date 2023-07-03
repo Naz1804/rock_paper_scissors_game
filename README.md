@@ -13,7 +13,7 @@ First thing first is you need `node.js` installed. Use this _[Link](https://node
 
 1. Then you can clone the code locally by copying the `HTTPS` from the `<> Code` button.
 
-![image](https://github.com/Naz1804/todolist/assets/121124109/220ab00c-5734-43c9-9592-9b408d66972d)
+![image](https://github.com/Naz1804/rock_paper_scissors_game/assets/121124109/a88d6b1a-050c-470f-b320-e00a5de13fa5)
 
 2. Open a terminal window or open your code editor that you can open up a terminal.
 3. Navigate to the directory where you want to clone the repository.
