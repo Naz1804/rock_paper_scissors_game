@@ -43,3 +43,7 @@ Next you will see this:
 You have two options to either click on the `http://localhost:5173/` or press `o` to open up the `localhost`.
 
 You can always press `h` to see what more commands that will help you code.
+
+## Finally you have the project running !!
+
+![image](https://github.com/Naz1804/rock_paper_scissors_game/assets/121124109/ff65e804-7907-4e21-bc5e-4b727135d550)
