@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 640px) {
+  .sidedown {
+    -webkit-animation: slide-down 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-down 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+}
+@-webkit-keyframes slide-down {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+}
+@keyframes slide-down {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+}
+
+@media (max-width: 640px) {
+  .sideup {
+    -webkit-animation: slide-up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+}
+@-webkit-keyframes slide-up {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+@keyframes slide-up {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+.rock {
+  transform: translate(60%, -100%);
+}
+.paper {
+  transform: translate(-11%, -260%);
+}
+.scissors {
+  transform: translate(130%, -260%);
+}
+
+@media (max-width: 320px) {
+  .scoreboard {
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  }
+  .logo {
+    width: 90px;
+    height: 70px;
+  }
+  .box {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+  .count {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .image {
+    width: 7rem;
+    height: 7rem;
+  }
+  .triangle {
+    width: 16rem;
+    height: 16rem;
+    margin-left: 0.5rem;
+  }
+  .rock {
+    transform: translate(70%, -100%);
+  }
+  .paper {
+    transform: translate(-1%, -260%);
+  }
+  .scissors {
+    transform: translate(140%, -260%);
+  }
+
+  .top {
+    margin-top: 0;
+    padding: 0 .5rem 0 .5rem;
+    gap: 1rem;
+    font-size: .8rem;
+  }
+}
+
+@media (max-height: 670px) {
+  .rule-top {
+    margin-top: 4rem;
+  }
+}
