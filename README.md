@@ -42,7 +42,7 @@ Next you will see this:
 
 You have two options to either click on the `http://localhost:5173/` or press `o` to open up the `localhost`.
 
-You can always press `h` to see what more commands that will help you code.
+You can always press `h` to see what more commands they are.
 
 ## Finally you have the project running !!
 
